@@ -1,0 +1,282 @@
+# Created by Octave 4.2.1, Wed May 23 20:03:05 2018 GMT <unknown@unknown>
+# name: TouchDetails
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 44
+# name: piSourcefilename
+# type: sq_string
+# elements: 1
+# length: 89
+C:\Users\nigeljudy48\Ringing Files\Recordings\Guildford\Guildford.20180429-1251.GSM_3.mp3
+
+
+# name: metatype
+# type: sq_string
+# elements: 1
+# length: 1
+a
+
+
+# name: extraweblink
+# type: sq_string
+# elements: 0
+
+
+# name: audiolink
+# type: sq_string
+# elements: 1
+# length: 1
+n
+
+
+# name: genanal
+# type: bool
+1
+
+
+# name: genwebpages
+# type: bool
+1
+
+
+# name: genindex
+# type: bool
+1
+
+
+# name: rmlink
+# type: sq_string
+# elements: 1
+# length: 1
+y
+
+
+# name: extrapres
+# type: sq_string
+# elements: 1
+# length: 1
+n
+
+
+# name: touchid
+# type: sq_string
+# elements: 1
+# length: 39
+Guildford.20180429-1251.S12T12.GSM_3.mr
+
+
+# name: piTower
+# type: sq_string
+# elements: 1
+# length: 32
+Cambridge, Univ Ch of St Mary Gt
+
+
+# name: piRingingdatetime
+# type: sq_string
+# elements: 1
+# length: 13
+20180429-1251
+
+
+# name: piRingingname
+# type: sq_string
+# elements: 1
+# length: 11
+Guildford 3
+
+
+# name: piTenor
+# type: sq_string
+# elements: 1
+# length: 2
+12
+
+
+# name: piNumbellsringing
+# type: sq_string
+# elements: 1
+# length: 2
+12
+
+
+# name: piRungon
+# type: string
+# elements: 0
+
+
+# name: piRingers
+# type: string
+# elements: 0
+
+
+# name: piAssociation
+# type: string
+# elements: 0
+
+
+# name: piFootnotes
+# type: sq_string
+# elements: 0
+
+
+# name: piCreator
+# type: sq_string
+# elements: 1
+# length: 74
+HawkEar WarpWSD V1 Development system for Cambridge, Univ Ch of St Mary Gt
+
+
+# name: piCreatorversion
+# type: sq_string
+# elements: 1
+# length: 18
+GitRef=DEVELOPMENT
+
+
+# name: piTranscriptiondatetime
+# type: sq_string
+# elements: 1
+# length: 13
+20180523-1533
+
+
+# name: piTranscribedfor
+# type: sq_string
+# elements: 1
+# length: 12
+(unlicensed)
+
+
+# name: piFirstblowms
+# type: sq_string
+# elements: 1
+# length: 4
+3280
+
+
+# name: piTrainparams
+# type: sq_string
+# elements: 1
+# length: 18
+y,0.05,0.01,0.9,40
+
+
+# name: piGainparams
+# type: sq_string
+# elements: 1
+# length: 17
+y,8,5000,200,7000
+
+
+# name: piOnsetparams
+# type: string
+# elements: 0
+
+
+# name: piTouchdb
+# type: sq_string
+# elements: 1
+# length: 8
+-20.7825
+
+
+# name: piMethod
+# type: sq_string
+# elements: 1
+# length: 26
+Cambridge Surprise Maximus
+
+
+# name: piStage
+# type: string
+# elements: 0
+
+
+# name: piCompositionName
+# type: sq_string
+# elements: 0
+
+
+# name: piCalling
+# type: string
+# elements: 0
+
+
+# name: piFoototes
+# type: string
+# elements: 0
+
+
+# name: piCompositionname
+# type: string
+# elements: 0
+
+
+# name: piAnalysisdatetime
+# type: sq_string
+# elements: 1
+# length: 15
+20180523-200224
+
+
+# name: piAnalyser
+# type: sq_string
+# elements: 1
+# length: 39
+HawkEar Warp V1 for Guildford Cathedral
+
+
+# name: piAnalyserversion
+# type: sq_string
+# elements: 1
+# length: 7
+1.0.0.4
+
+
+# name: piStdev
+# type: sq_string
+# elements: 1
+# length: 4
+35.4
+
+
+# name: piStdevpercent
+# type: sq_string
+# elements: 1
+# length: 4
+17.4
+
+
+# name: piTouchlength
+# type: scalar
+288
+
+
+# name: piPiecelength
+# type: scalar
+314
+
+
+# name: piTouchDuration
+# type: sq_string
+# elements: 1
+# length: 15
+12 mins 13 secs
+
+
+# name: piPieceDuration
+# type: sq_string
+# elements: 1
+# length: 15
+13 mins 19 secs
+
+
+# name: piNBells
+# type: scalar
+12
+
+
+
+

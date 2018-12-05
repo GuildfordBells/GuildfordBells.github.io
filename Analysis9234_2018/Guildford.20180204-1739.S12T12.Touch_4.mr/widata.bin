@@ -1,0 +1,284 @@
+# Created by Octave 4.2.1, Mon Feb 05 19:47:24 2018 GMT <unknown@unknown>
+# name: TouchDetails
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 44
+# name: piSourcefilename
+# type: sq_string
+# elements: 1
+# length: 91
+C:\Users\nigeljudy48\Ringing Files\Recordings\Guildford\Guildford.20180204-1739.Touch_4.mp3
+
+
+# name: metatype
+# type: sq_string
+# elements: 1
+# length: 1
+a
+
+
+# name: extraweblink
+# type: sq_string
+# elements: 0
+
+
+# name: audiolink
+# type: sq_string
+# elements: 1
+# length: 1
+n
+
+
+# name: genanal
+# type: bool
+1
+
+
+# name: genwebpages
+# type: bool
+1
+
+
+# name: genindex
+# type: bool
+1
+
+
+# name: rmlink
+# type: sq_string
+# elements: 1
+# length: 1
+y
+
+
+# name: extrapres
+# type: sq_string
+# elements: 1
+# length: 1
+n
+
+
+# name: touchid
+# type: sq_string
+# elements: 1
+# length: 41
+Guildford.20180204-1739.S12T12.Touch_4.mr
+
+
+# name: piTower
+# type: sq_string
+# elements: 1
+# length: 19
+Guildford Cathedral
+
+
+# name: piRingingdatetime
+# type: sq_string
+# elements: 1
+# length: 13
+20180204-1739
+
+
+# name: piRingingname
+# type: sq_string
+# elements: 1
+# length: 7
+Touch 4
+
+
+# name: piTenor
+# type: sq_string
+# elements: 1
+# length: 2
+12
+
+
+# name: piNumbellsringing
+# type: sq_string
+# elements: 1
+# length: 2
+12
+
+
+# name: piRungon
+# type: string
+# elements: 0
+
+
+# name: piRingers
+# type: string
+# elements: 0
+
+
+# name: piAssociation
+# type: string
+# elements: 0
+
+
+# name: piFootnotes
+# type: sq_string
+# elements: 0
+
+
+# name: piCreator
+# type: sq_string
+# elements: 1
+# length: 39
+HawkEar Warp V1 for Guildford Cathedral
+
+
+# name: piCreatorversion
+# type: sq_string
+# elements: 1
+# length: 7
+1.0.0.4
+
+
+# name: piTranscriptiondatetime
+# type: sq_string
+# elements: 1
+# length: 13
+20180205-1946
+
+
+# name: piTranscribedfor
+# type: sq_string
+# elements: 1
+# length: 14
+Guildford Band
+
+
+# name: piFirstblowms
+# type: sq_string
+# elements: 1
+# length: 4
+3780
+
+
+# name: piTrainparams
+# type: sq_string
+# elements: 1
+# length: 18
+y,0.05,0.01,0.9,40
+
+
+# name: piGainparams
+# type: sq_string
+# elements: 1
+# length: 17
+y,8,5000,200,6000
+
+
+# name: piOnsetparams
+# type: sq_string
+# elements: 1
+# length: 11
+80,10,0.30,
+
+
+# name: piTouchdb
+# type: sq_string
+# elements: 1
+# length: 8
+-20.6266
+
+
+# name: piMethod
+# type: sq_string
+# elements: 1
+# length: 20
+Unrecognised Maximus
+
+
+# name: piStage
+# type: string
+# elements: 0
+
+
+# name: piCompositionName
+# type: sq_string
+# elements: 0
+
+
+# name: piCalling
+# type: string
+# elements: 0
+
+
+# name: piCompositionname
+# type: string
+# elements: 0
+
+
+# name: piFoototes
+# type: string
+# elements: 0
+
+
+# name: piAnalysisdatetime
+# type: sq_string
+# elements: 1
+# length: 15
+20180205-194659
+
+
+# name: piAnalyser
+# type: sq_string
+# elements: 1
+# length: 39
+HawkEar Warp V1 for Guildford Cathedral
+
+
+# name: piAnalyserversion
+# type: sq_string
+# elements: 1
+# length: 7
+1.0.0.4
+
+
+# name: piStdev
+# type: sq_string
+# elements: 1
+# length: 4
+42.3
+
+
+# name: piStdevpercent
+# type: sq_string
+# elements: 1
+# length: 4
+20.5
+
+
+# name: piTouchlength
+# type: scalar
+52
+
+
+# name: piPiecelength
+# type: scalar
+74
+
+
+# name: piTouchDuration
+# type: sq_string
+# elements: 1
+# length: 14
+2 mins 14 secs
+
+
+# name: piPieceDuration
+# type: sq_string
+# elements: 1
+# length: 14
+3 mins 11 secs
+
+
+# name: piNBells
+# type: scalar
+12
+
+
+
+

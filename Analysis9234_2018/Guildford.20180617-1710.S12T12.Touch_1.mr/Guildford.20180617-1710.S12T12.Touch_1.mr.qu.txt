@@ -1,0 +1,33 @@
+       Transcription Difficulty Analysis
+         Bell Handstroke Backstroke
+           1     5.24        7.64
+           2     3.53        8.53
+           3     4.88        2.91
+           4     2.54        2.37
+           5     3.41        2.93
+           6     2.23        1.36
+           7     1.35        2.03
+           8     1.38        3.65
+           9     2.38        1.39
+          10     4.04        2.05
+          11     1.56        2.56
+          12     4.18        4.54
+         Overall Transcription Difficulty       3.28
+       Bad Blow Analysis
+         Reporting threshold = 39
+         List of blow transcriptions exceeding threshold
+            ChangeNo  BellNo  metric
+               34      1       45
+               52      1       39
+               76      1       44
+               92      1       39
+               92      2       62
+               94      2       75
+              148      2       59
+              150      2       42
+              156      8       54
+              182      7       70
+              254      2       43
+              260      8       43
+              312      1       40
+         Total blow transcriptions exceeding threshold: 13

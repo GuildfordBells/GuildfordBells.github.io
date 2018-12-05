@@ -1,0 +1,34 @@
+------------------------------------------------------------------------------
+                 Piece = Guildford.20180304 - 1355.Southwell 4
+------------------------------------------------------------------------------
+  Length of rounds before touch                             = 22 rounds
+  Length of touch                                           = 288 changes
+  Average inter-bell gap during touch                       = 208 ms
+  Average handstroke gap during touch                       = 413 ms
+  ... ditto as ratio of inter-bell gap                      = 1.99
+  Peal speed (5040 changes)                                 = 3 hrs 38 mins
+  Touch time (Time in changes)                              = 12 mins 28 secs
+  Piece time (Time ringing)                                 = 13 mins 35 secs
+------------------------------------------------------------------------------
+  Overall standard deviation within touch                   = 36.0ms
+  ... ditto as percent of mean spacing                      = 17.3
+------------------------------------------------------------------------------
+  Std dev ignoring rows with probable method error          = 36.0 ms
+  ... ditto as percent of mean spacing                      = 17.3
+  ... Number of rows discounted                             =  0 rows
+------------------------------------------------------------------------------
+   Rows   Peal speed    Standard deviation
+      1-  24   3 hrs 36 mins      35.8 ms
+     25-  48   3 hrs 37 mins      36.5 ms
+     49-  72   3 hrs 37 mins      38.5 ms
+     73-  96   3 hrs 38 mins      33.3 ms
+     97- 120   3 hrs 37 mins      38.0 ms
+    121- 144   3 hrs 38 mins      31.3 ms
+    145- 168   3 hrs 39 mins      30.4 ms
+    169- 192   3 hrs 40 mins      37.1 ms
+    193- 216   3 hrs 39 mins      33.1 ms
+    217- 240   3 hrs 39 mins      39.2 ms
+    241- 264   3 hrs 40 mins      35.5 ms
+    265- 288   3 hrs 40 mins      41.4 ms
+------------------------------------------------------------------------------
+| Guildford.20180304-1355.S12T12.Southwell_4.mr.lo  | 3 hrs 38 mins |   36.0 |     17.3 %   |

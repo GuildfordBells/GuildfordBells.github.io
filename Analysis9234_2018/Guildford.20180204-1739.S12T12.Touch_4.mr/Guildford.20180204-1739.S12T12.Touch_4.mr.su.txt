@@ -1,0 +1,25 @@
+------------------------------------------------------------------------------
+                                Piece = Touch 4
+------------------------------------------------------------------------------
+  Length of rounds before touch                             = 18 rounds
+  Length of touch                                           = 52 changes
+  Average inter-bell gap during touch                       = 206 ms
+  Average handstroke gap during touch                       = 447 ms
+  ... ditto as ratio of inter-bell gap                      = 2.17
+  Peal speed (5040 changes)                                 = 3 hrs 38 mins
+  Touch time (Time in changes)                              = 2 mins 14 secs
+  Piece time (Time ringing)                                 = 3 mins 11 secs
+------------------------------------------------------------------------------
+  Overall standard deviation within touch                   = 42.3ms
+  ... ditto as percent of mean spacing                      = 20.5
+------------------------------------------------------------------------------
+  Std dev ignoring rows with probable method error          = 38.5 ms
+  ... ditto as percent of mean spacing                      = 18.7
+  ... Number of rows discounted                             =  5 rows
+------------------------------------------------------------------------------
+   Rows   Peal speed    Standard deviation
+      1-  24   3 hrs 37 mins      40.7 ms
+     25-  48   3 hrs 39 mins      45.3 ms
+     49-  52   3 hrs 38 mins      32.7 ms
+------------------------------------------------------------------------------
+| Guildford.20180204-1739.S12T12.Touch_4.mr.lo  | 3 hrs 38 mins |   42.3 |     20.5 %   |

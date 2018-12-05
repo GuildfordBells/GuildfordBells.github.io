@@ -1,0 +1,34 @@
+------------------------------------------------------------------------------
+                                Piece = Team 9
+------------------------------------------------------------------------------
+  Length of rounds before touch                             = 26 rounds
+  Length of touch                                           = 288 changes
+  Average inter-bell gap during touch                       = 202 ms
+  Average handstroke gap during touch                       = 383 ms
+  ... ditto as ratio of inter-bell gap                      = 1.90
+  Peal speed (5040 changes)                                 = 3 hrs 31 mins
+  Touch time (Time in changes)                              = 12 mins 4 secs
+  Piece time (Time ringing)                                 = 13 mins 25 secs
+------------------------------------------------------------------------------
+  Overall standard deviation within touch                   = 32.2ms
+  ... ditto as percent of mean spacing                      = 15.9
+------------------------------------------------------------------------------
+  Std dev ignoring rows with probable method error          = 31.8 ms
+  ... ditto as percent of mean spacing                      = 15.8
+  ... Number of rows discounted                             =  3 rows
+------------------------------------------------------------------------------
+   Rows   Peal speed    Standard deviation
+      1-  24   3 hrs 32 mins      30.8 ms
+     25-  48   3 hrs 32 mins      33.6 ms
+     49-  72   3 hrs 31 mins      32.0 ms
+     73-  96   3 hrs 32 mins      30.1 ms
+     97- 120   3 hrs 31 mins      33.5 ms
+    121- 144   3 hrs 32 mins      30.2 ms
+    145- 168   3 hrs 30 mins      33.3 ms
+    169- 192   3 hrs 31 mins      34.1 ms
+    193- 216   3 hrs 31 mins      30.0 ms
+    217- 240   3 hrs 31 mins      36.4 ms
+    241- 264   3 hrs 31 mins      28.0 ms
+    265- 288   3 hrs 31 mins      33.9 ms
+------------------------------------------------------------------------------
+| Guildford.20160625-1545.S12T12.Team_9.mr.lo  | 3 hrs 31 mins |   32.2 |     15.9 %   |

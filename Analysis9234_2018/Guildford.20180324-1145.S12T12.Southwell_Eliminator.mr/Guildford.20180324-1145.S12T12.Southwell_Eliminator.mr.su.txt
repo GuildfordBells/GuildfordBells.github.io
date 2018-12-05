@@ -1,0 +1,34 @@
+------------------------------------------------------------------------------
+                                   Piece = A
+------------------------------------------------------------------------------
+  Length of rounds before touch                             = 30 rounds
+  Length of touch                                           = 288 changes
+  Average inter-bell gap during touch                       = 206 ms
+  Average handstroke gap during touch                       = 409 ms
+  ... ditto as ratio of inter-bell gap                      = 1.98
+  Peal speed (5040 changes)                                 = 3 hrs 36 mins
+  Touch time (Time in changes)                              = 12 mins 21 secs
+  Piece time (Time ringing)                                 = 13 mins 48 secs
+------------------------------------------------------------------------------
+  Overall standard deviation within touch                   = 35.5ms
+  ... ditto as percent of mean spacing                      = 17.3
+------------------------------------------------------------------------------
+  Std dev ignoring rows with probable method error          = 35.1 ms
+  ... ditto as percent of mean spacing                      = 17.0
+  ... Number of rows discounted                             =  3 rows
+------------------------------------------------------------------------------
+   Rows   Peal speed    Standard deviation
+      1-  24   3 hrs 34 mins      35.4 ms
+     25-  48   3 hrs 34 mins      32.4 ms
+     49-  72   3 hrs 34 mins      37.8 ms
+     73-  96   3 hrs 35 mins      31.2 ms
+     97- 120   3 hrs 35 mins      42.9 ms
+    121- 144   3 hrs 35 mins      34.7 ms
+    145- 168   3 hrs 36 mins      33.4 ms
+    169- 192   3 hrs 37 mins      37.3 ms
+    193- 216   3 hrs 38 mins      31.6 ms
+    217- 240   3 hrs 38 mins      38.7 ms
+    241- 264   3 hrs 39 mins      31.8 ms
+    265- 288   3 hrs 39 mins      37.5 ms
+------------------------------------------------------------------------------
+| Guildford.20180324-1145.S12T12.Southwell_Eliminator.mr.lo  | 3 hrs 36 mins |   35.5 |     17.3 %   |

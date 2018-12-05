@@ -1,0 +1,267 @@
+# Created by Octave 4.2.1, Sat May 06 14:13:59 2017 GMT <unknown@unknown>
+# name: TouchDetails
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 43
+# name: piSourcefilename
+# type: sq_string
+# elements: 1
+# length: 94
+C:\Users\nigeljudy48\Ringing Files\Recordings\Guildford\Kidderminster.20120324-1345.Team_4.mp3
+
+
+# name: metatype
+# type: sq_string
+# elements: 1
+# length: 1
+a
+
+
+# name: extraweblink
+# type: sq_string
+# elements: 0
+
+
+# name: audiolink
+# type: sq_string
+# elements: 1
+# length: 1
+n
+
+
+# name: genanal
+# type: bool
+1
+
+
+# name: genwebpages
+# type: bool
+1
+
+
+# name: genindex
+# type: bool
+1
+
+
+# name: rmlink
+# type: sq_string
+# elements: 1
+# length: 1
+y
+
+
+# name: extrapres
+# type: sq_string
+# elements: 1
+# length: 1
+n
+
+
+# name: touchid
+# type: sq_string
+# elements: 1
+# length: 40
+Guildford.20120324-1345.S12T12.Team_4.mr
+
+
+# name: piTower
+# type: sq_string
+# elements: 1
+# length: 13
+Kidderminster
+
+
+# name: piRingingdatetime
+# type: sq_string
+# elements: 1
+# length: 13
+20120324-1345
+
+
+# name: piRingingname
+# type: sq_string
+# elements: 1
+# length: 6
+Team 4
+
+
+# name: piTenor
+# type: sq_string
+# elements: 1
+# length: 2
+12
+
+
+# name: piNumbellsringing
+# type: sq_string
+# elements: 1
+# length: 2
+12
+
+
+# name: piRungon
+# type: sq_string
+# elements: 0
+
+
+# name: piRingers
+# type: sq_string
+# elements: 0
+
+
+# name: piAssociation
+# type: sq_string
+# elements: 0
+
+
+# name: piFootnotes
+# type: sq_string
+# elements: 0
+
+
+# name: piCreator
+# type: sq_string
+# elements: 1
+# length: 17
+Hawkear Version 1
+
+
+# name: piCreatorversion
+# type: sq_string
+# elements: 0
+
+
+# name: piTranscriptiondatetime
+# type: sq_string
+# elements: 0
+
+
+# name: piTranscribedfor
+# type: sq_string
+# elements: 0
+
+
+# name: piFirstblowms
+# type: sq_string
+# elements: 1
+# length: 3
+450
+
+
+# name: piTrainparams
+# type: sq_string
+# elements: 0
+
+
+# name: piGainparams
+# type: sq_string
+# elements: 0
+
+
+# name: piOnsetparams
+# type: sq_string
+# elements: 0
+
+
+# name: piTouchdb
+# type: sq_string
+# elements: 0
+
+
+# name: piMethod
+# type: sq_string
+# elements: 1
+# length: 15
+Stedman Cinques
+
+
+# name: piStage
+# type: sq_string
+# elements: 0
+
+
+# name: piCompositionName
+# type: sq_string
+# elements: 0
+
+
+# name: piCalling
+# type: sq_string
+# elements: 0
+
+
+# name: SC_TranscriptionDate
+# type: sq_string
+# elements: 1
+# length: 17
+2012-04-02--20-04
+
+
+# name: piAnalysisdatetime
+# type: sq_string
+# elements: 1
+# length: 15
+20170506-141351
+
+
+# name: piAnalyser
+# type: sq_string
+# elements: 1
+# length: 39
+HawkEar Warp V1 for Guildford Cathedral
+
+
+# name: piAnalyserversion
+# type: sq_string
+# elements: 1
+# length: 7
+1.0.0.4
+
+
+# name: piStdev
+# type: sq_string
+# elements: 1
+# length: 4
+31.1
+
+
+# name: piStdevpercent
+# type: sq_string
+# elements: 1
+# length: 4
+16.6
+
+
+# name: piTouchlength
+# type: scalar
+253
+
+
+# name: piPiecelength
+# type: scalar
+292
+
+
+# name: piTouchDuration
+# type: sq_string
+# elements: 1
+# length: 14
+9 mins 58 secs
+
+
+# name: piPieceDuration
+# type: sq_string
+# elements: 1
+# length: 15
+11 mins 30 secs
+
+
+# name: piNBells
+# type: scalar
+12
+
+
+
+
