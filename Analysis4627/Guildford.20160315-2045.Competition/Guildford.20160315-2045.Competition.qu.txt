@@ -1,0 +1,25 @@
+   *** Transcription Difficulty Analysis
+         Bell Handstroke Backstroke
+          1     3.90        7.14
+          2     1.30        3.09
+          3     1.98        1.17
+          4     1.56        1.15
+          5     2.75        1.63
+          6     1.51        1.20
+          7     0.68        1.43
+          8     0.97        2.22
+          9     1.58        1.51
+         10     2.64        3.28
+         11     2.76        3.53
+         12     4.03        4.23
+       Overall Transcription Difficulty       2.39
+   *** Bad Blow Analysis ***
+       Reporting threshold = 39
+       List of possible bad transcriptions. (Note that the "ChangeNo" field
+       below is relative to the piece as a whole, and not the touch
+          ChangeNo  BellNo  metric
+             78      1       51
+             84      1      100
+            230      1       41
+            262      1       42
+            292      2       47

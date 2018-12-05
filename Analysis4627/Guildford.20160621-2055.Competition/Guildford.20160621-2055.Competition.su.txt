@@ -1,0 +1,32 @@
+------------------------------------------------------------------------------
+                             Piece = Competition
+------------------------------------------------------------------------------
+  Length of rounds before touch                             = 22 rounds
+  Length of touch                                           = 288 changes
+  Average inter-bell gap during touch                       = 204 ms
+  Average handstroke gap during touch                       = 421 ms
+  ... ditto as ratio of inter-bell gap                      = 2.07
+  Peal speed (5040 changes)                                 = 3 hrs 34 mins
+  Touch time (Time in changes)                              = 12 mins 14 secs
+  Piece time (Time ringing)                                 = 13 mins 24 secs
+------------------------------------------------------------------------------
+  Overall standard deviation within touch                   = 30.0 ms
+  ... ditto as percent of mean spacing                      = 14.8%
+------------------------------------------------------------------------------
+  Std dev ignoring rows with std above threshold            = 29.8 ms
+  ... Number of rows discounted                             =  2 rows
+------------------------------------------------------------------------------
+      Rows      Peal speed       Standard deviation
+      1-  24   3 hrs 31 mins         32.2 ms
+     25-  48   3 hrs 33 mins         30.3 ms
+     49-  72   3 hrs 33 mins         29.5 ms
+     73-  96   3 hrs 34 mins         29.0 ms
+     97- 120   3 hrs 34 mins         31.6 ms
+    121- 144   3 hrs 34 mins         31.4 ms
+    145- 168   3 hrs 35 mins         29.8 ms
+    169- 192   3 hrs 34 mins         30.0 ms
+    193- 216   3 hrs 35 mins         27.1 ms
+    217- 240   3 hrs 35 mins         30.1 ms
+    241- 264   3 hrs 36 mins         29.3 ms
+    265- 288   3 hrs 36 mins         30.1 ms
+------------------------------------------------------------------------------

@@ -1,0 +1,110 @@
+# Created by Octave 3.8.2, Sat Jan 30 16:49:34 2016 GMT Standard Time <unknown@Dining_room>
+# name: TouchDetails
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 16
+# name: piBellset
+# type: sq_string
+# elements: 1
+# length: 6
+S12T12
+
+
+# name: piBellsetphrase
+# type: sq_string
+# elements: 1
+# length: 14
+Rung on the 12
+
+
+# name: piCreator
+# type: sq_string
+# elements: 1
+# length: 20
+Hawkear Version v754
+
+
+# name: piDuration
+# type: sq_string
+# elements: 1
+# length: 2
+13
+
+
+# name: piFirstblowms
+# type: sq_string
+# elements: 1
+# length: 5
+15570
+
+
+# name: piLowndes
+# type: sq_string
+# elements: 1
+# length: 9
+Version 2
+
+
+# name: piNBells
+# type: scalar
+12
+
+
+# name: piPiecetime
+# type: sq_string
+# elements: 0
+
+
+# name: piRingers
+# type: string
+# elements: 0
+
+
+# name: piRingingdatetime
+# type: sq_string
+# elements: 1
+# length: 13
+20150322-1740
+
+
+# name: piRingingname
+# type: sq_string
+# elements: 1
+# length: 18
+Competition touch1
+
+
+# name: piSourcefilename
+# type: sq_string
+# elements: 1
+# length: 42
+Guildford.20150322-1740.competition.touch1
+
+
+# name: piStdev
+# type: scalar
+32.68257627780029
+
+
+# name: piTouchlength
+# type: scalar
+288
+
+
+# name: piTower
+# type: sq_string
+# elements: 1
+# length: 9
+Guildford
+
+
+# name: piTranscriptiondatetime
+# type: sq_string
+# elements: 1
+# length: 13
+20160130-1649
+
+
+
+
