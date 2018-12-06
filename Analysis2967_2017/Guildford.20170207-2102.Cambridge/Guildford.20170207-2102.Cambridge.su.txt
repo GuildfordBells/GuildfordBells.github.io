@@ -1,0 +1,30 @@
+------------------------------------------------------------------------------
+                              Piece = Cambridge
+------------------------------------------------------------------------------
+  Length of rounds before touch                             = 26 rounds
+  Length of touch                                           = 238 changes
+  Average inter-bell gap during touch                       = 200 ms
+  Average handstroke gap during touch                       = 430 ms
+  ... ditto as ratio of inter-bell gap                      = 2.15
+  Peal speed (5040 changes)                                 = 3 hrs 31 mins
+  Touch time (Time in changes)                              = 9 mins 57 secs
+  Piece time (Time ringing)                                 = 11 mins 33 secs
+------------------------------------------------------------------------------
+  Overall standard deviation within touch                   = 34.1 ms
+  ... ditto as percent of mean spacing                      = 17.1%
+------------------------------------------------------------------------------
+  Std dev ignoring rows with std above threshold            = 31.9 ms
+  ... Number of rows discounted                             =  7 rows
+------------------------------------------------------------------------------
+      Rows      Peal speed       Standard deviation
+      1-  24   3 hrs 31 mins         46.4 ms
+     25-  48   3 hrs 31 mins         37.2 ms
+     49-  72   3 hrs 31 mins         36.2 ms
+     73-  96   3 hrs 31 mins         30.0 ms
+     97- 120   3 hrs 31 mins         31.8 ms
+    121- 144   3 hrs 31 mins         30.3 ms
+    145- 168   3 hrs 31 mins         29.1 ms
+    169- 192   3 hrs 31 mins         33.3 ms
+    193- 216   3 hrs 31 mins         30.0 ms
+    217- 238   3 hrs 31 mins         33.5 ms
+------------------------------------------------------------------------------

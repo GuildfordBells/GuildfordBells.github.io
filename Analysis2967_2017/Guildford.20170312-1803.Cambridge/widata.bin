@@ -1,0 +1,244 @@
+# Created by Octave 4.2.0, Mon Mar 13 07:09:51 2017 GMT <unknown@unknown>
+# name: TouchDetails
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 38
+# name: piRingingdatetime
+# type: sq_string
+# elements: 1
+# length: 13
+20170312-1803
+
+
+# name: piRingingname
+# type: sq_string
+# elements: 1
+# length: 51
+20170312223850 Birmingham.20170312 - 1803.Cambridge
+
+
+# name: piSourcefilename
+# type: sq_string
+# elements: 1
+# length: 86
+E:\birmingham\practice\guildford\20170312223850_Birmingham.20170312-1803.Cambridge.wav
+
+
+# name: piTower
+# type: sq_string
+# elements: 1
+# length: 22
+Birmingham - St Philip
+
+
+# name: piTowerphrase
+# type: sq_string
+# elements: 1
+# length: 15
+(Unknown Tower)
+
+
+# name: piTenor
+# type: sq_string
+# elements: 1
+# length: 2
+12
+
+
+# name: piRungon
+# type: sq_string
+# elements: 0
+
+
+# name: piRingers
+# type: sq_string
+# elements: 0
+
+
+# name: piAssociation
+# type: sq_string
+# elements: 0
+
+
+# name: piNotes
+# type: sq_string
+# elements: 0
+
+
+# name: piCreator
+# type: sq_string
+# elements: 1
+# length: 61
+HawkEar Warp V1 Development system for Birmingham - St Philip
+
+
+# name: piTranscriptiondatetime
+# type: sq_string
+# elements: 1
+# length: 15
+20170313-070941
+
+
+# name: piTranscribedfor
+# type: sq_string
+# elements: 1
+# length: 12
+(unlicensed)
+
+
+# name: piFirstblowms
+# type: sq_string
+# elements: 1
+# length: 5
+42200
+
+
+# name: piTrainparams
+# type: sq_string
+# elements: 1
+# length: 18
+y,0.05,0.01,0.9,40
+
+
+# name: piGainparams
+# type: sq_string
+# elements: 1
+# length: 17
+y,1,5000,200,6000
+
+
+# name: piOnsetparams
+# type: sq_string
+# elements: 1
+# length: 9
+80,10,0.3
+
+
+# name: piMethod
+# type: sq_string
+# elements: 0
+
+
+# name: piStage
+# type: sq_string
+# elements: 0
+
+
+# name: piCompositionName
+# type: sq_string
+# elements: 0
+
+
+# name: piCalling
+# type: sq_string
+# elements: 0
+
+
+# name: piNumbellsringing
+# type: sq_string
+# elements: 0
+
+
+# name: piTouchlength
+# type: scalar
+288
+
+
+# name: piTouchDuration
+# type: sq_string
+# elements: 1
+# length: 15
+12 mins 14 secs
+
+
+# name: piPealSpeed
+# type: sq_string
+# elements: 0
+
+
+# name: piStDev
+# type: sq_string
+# elements: 0
+
+
+# name: piPieceDuration
+# type: sq_string
+# elements: 1
+# length: 15
+13 mins 25 secs
+
+
+# name: piPiecelength
+# type: scalar
+316
+
+
+# name: piAnalysisDateTime
+# type: sq_string
+# elements: 1
+# length: 15
+20170313-070943
+
+
+# name: piAnalyser
+# type: sq_string
+# elements: 1
+# length: 61
+HawkEar Warp V1 Development system for Birmingham - St Philip
+
+
+# name: metatype
+# type: sq_string
+# elements: 1
+# length: 1
+a
+
+
+# name: audiolink
+# type: sq_string
+# elements: 1
+# length: 1
+y
+
+
+# name: genanal
+# type: sq_string
+# elements: 1
+# length: 1
+y
+
+
+# name: genwebpages
+# type: sq_string
+# elements: 1
+# length: 1
+y
+
+
+# name: genindex
+# type: sq_string
+# elements: 1
+# length: 1
+y
+
+
+# name: foreignVersion
+# type: sq_string
+# elements: 1
+# length: 31
+eliminator-feedback201703072315
+
+
+# name: piStdev
+# type: scalar
+34.95761814910824
+
+
+# name: piNBells
+# type: scalar
+12
+
+
+
+

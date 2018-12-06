@@ -1,0 +1,29 @@
+------------------------------------------------------------------------------
+                               Piece = Bristol
+------------------------------------------------------------------------------
+  Length of rounds before touch                             = 16 rounds
+  Length of touch                                           = 194 changes
+  Average inter-bell gap during touch                       = 199 ms
+  Average handstroke gap during touch                       = 414 ms
+  ... ditto as ratio of inter-bell gap                      = 2.08
+  Peal speed (5040 changes)                                 = 3 hrs 30 mins
+  Touch time (Time in changes)                              = 8 mins 5 secs
+  Piece time (Time ringing)                                 = 8 mins 55 secs
+------------------------------------------------------------------------------
+  Overall standard deviation within touch                   = 31.3 ms
+  ... ditto as percent of mean spacing                      = 15.7%
+------------------------------------------------------------------------------
+  Std dev ignoring rows with std above threshold            = 29.6 ms
+  ... Number of rows discounted                             =  3 rows
+------------------------------------------------------------------------------
+      Rows      Peal speed       Standard deviation
+      1-  24   3 hrs 30 mins         30.1 ms
+     25-  48   3 hrs 31 mins         34.2 ms
+     49-  72   3 hrs 31 mins         30.9 ms
+     73-  96   3 hrs 30 mins         26.7 ms
+     97- 120   3 hrs 30 mins         25.6 ms
+    121- 144   3 hrs 30 mins         29.7 ms
+    145- 168   3 hrs 30 mins         30.7 ms
+    169- 192   3 hrs 29 mins         40.8 ms
+    193- 194   3 hrs 29 mins         30.1 ms
+------------------------------------------------------------------------------

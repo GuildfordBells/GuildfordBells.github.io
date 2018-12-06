@@ -1,0 +1,110 @@
+# Created by Octave 3.8.2, Sat Mar 18 07:22:51 2017 GMT Standard Time <unknown@Dining_room>
+# name: TouchDetails
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 16
+# name: piBellset
+# type: sq_string
+# elements: 1
+# length: 6
+S12T12
+
+
+# name: piBellsetphrase
+# type: sq_string
+# elements: 1
+# length: 14
+Rung on the 12
+
+
+# name: piCreator
+# type: sq_string
+# elements: 1
+# length: 20
+Hawkear Version v754
+
+
+# name: piDuration
+# type: sq_string
+# elements: 1
+# length: 1
+5
+
+
+# name: piFirstblowms
+# type: sq_string
+# elements: 1
+# length: 5
+33400
+
+
+# name: piLowndes
+# type: sq_string
+# elements: 1
+# length: 9
+Version 2
+
+
+# name: piNBells
+# type: scalar
+12
+
+
+# name: piPiecetime
+# type: sq_string
+# elements: 0
+
+
+# name: piRingers
+# type: string
+# elements: 0
+
+
+# name: piRingingdatetime
+# type: sq_string
+# elements: 1
+# length: 13
+20170317-2048
+
+
+# name: piRingingname
+# type: sq_string
+# elements: 1
+# length: 9
+Cambridge
+
+
+# name: piSourcefilename
+# type: sq_string
+# elements: 1
+# length: 33
+Guildford.20170317-2048.Cambridge
+
+
+# name: piStdev
+# type: scalar
+33.52380651739701
+
+
+# name: piTouchlength
+# type: scalar
+104
+
+
+# name: piTower
+# type: sq_string
+# elements: 1
+# length: 9
+Guildford
+
+
+# name: piTranscriptiondatetime
+# type: sq_string
+# elements: 1
+# length: 13
+20170318- 722
+
+
+
+

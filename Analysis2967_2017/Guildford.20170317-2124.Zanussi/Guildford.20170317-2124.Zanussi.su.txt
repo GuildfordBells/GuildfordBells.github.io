@@ -1,0 +1,24 @@
+------------------------------------------------------------------------------
+                               Piece = Zanussi
+------------------------------------------------------------------------------
+  Length of rounds before touch                             = 22 rounds
+  Length of touch                                           = 96 changes
+  Average inter-bell gap during touch                       = 200 ms
+  Average handstroke gap during touch                       = 411 ms
+  ... ditto as ratio of inter-bell gap                      = 2.06
+  Peal speed (5040 changes)                                 = 3 hrs 30 mins
+  Touch time (Time in changes)                              = 3 mins 60 secs
+  Piece time (Time ringing)                                 = 5 mins 9 secs
+------------------------------------------------------------------------------
+  Overall standard deviation within touch                   = 36.8 ms
+  ... ditto as percent of mean spacing                      = 18.5%
+------------------------------------------------------------------------------
+  Std dev ignoring rows with std above threshold            = 33.6 ms
+  ... Number of rows discounted                             =  6 rows
+------------------------------------------------------------------------------
+      Rows      Peal speed       Standard deviation
+      1-  24   3 hrs 30 mins         35.0 ms
+     25-  48   3 hrs 30 mins         40.1 ms
+     49-  72   3 hrs 31 mins         32.3 ms
+     73-  96   3 hrs 30 mins         39.3 ms
+------------------------------------------------------------------------------

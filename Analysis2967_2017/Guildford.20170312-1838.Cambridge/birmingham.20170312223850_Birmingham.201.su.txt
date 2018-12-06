@@ -1,0 +1,32 @@
+------------------------------------------------------------------------------
+          Piece = 20170312223850 Birmingham.20170312 - 1838.Cambridge
+------------------------------------------------------------------------------
+  Length of rounds before touch                             = 28 rounds
+  Length of touch                                           = 288 changes
+  Average inter-bell gap during touch                       = 206 ms
+  Average handstroke gap during touch                       = 458 ms
+  ... ditto as ratio of inter-bell gap                      = 2.22
+  Peal speed (5040 changes)                                 = 3 hrs 38 mins
+  Touch time (Time in changes)                              = 12 mins 27 secs
+  Piece time (Time ringing)                                 = 13 mins 50 secs
+------------------------------------------------------------------------------
+  Overall standard deviation within touch                   = 34.9426 ms
+  ... ditto as percent of mean spacing                      = 17.0%
+------------------------------------------------------------------------------
+  Std dev ignoring rows with probable method error          = 34.9426 ms
+  ... Number of rows discounted                             =  0 rows
+------------------------------------------------------------------------------
+	  Rows	  Peal speed	   Standard deviation
+      1-  24   3 hrs 36 mins	   34.9632 ms
+     25-  48   3 hrs 38 mins	   35.6821 ms
+     49-  72   3 hrs 37 mins	   35.0778 ms
+     73-  96   3 hrs 38 mins	   37.5679 ms
+     97- 120   3 hrs 38 mins	   33.3031 ms
+    121- 144   3 hrs 39 mins	   32.9766 ms
+    145- 168   3 hrs 38 mins	   35.0770 ms
+    169- 192   3 hrs 39 mins	   34.8709 ms
+    193- 216   3 hrs 39 mins	   38.5771 ms
+    217- 240   3 hrs 38 mins	   34.6855 ms
+    241- 264   3 hrs 38 mins	   34.5303 ms
+    265- 288   3 hrs 39 mins	   31.0913 ms
+------------------------------------------------------------------------------
