@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Try to load piecedata. scripts in body will fail gracefully if not loaded  -->
+  <script src="piecedata.js"></script>
+  <!-- Find location of TouchViewer and set up tvLoc  -->
+  <script>isHere=0;</script>
+  <script src="TouchViewer/loctest.js"></script>
+  <script>isInside=isHere;isHere=0;</script>
+  <script src="../TouchViewer/loctest.js"></script>
+  <script>
+    isOutside=isHere;
+    if (isInside==1){                // Inside
+      tvLoc='TouchViewer/';
+    }else if (isOutside==1){        // Outside
+      tvLoc='../TouchViewer/';
+    }else{                          // Not Found
+      tvLoc='';
+    }
+  </script>
+  <link rel="stylesheet" type="text/css" href="TouchViewer/HawkEar.css">
+  <link rel="stylesheet" type="text/css" href="../TouchViewer/HawkEar.css">
+  <link rel="icon" type="image/png" href="hk4.png" id="myfavicon">
+  <meta http-equiv=Content-Type content="text/html; charset=windows-1252"/>
+  <meta content="bell,ringing,Bellringing,Bellringers,Bells,campanology,HawkEar" name="keywords"/>
+</head>
+<body onload="javascript:onInitEvent()" id="mybody" style="display:none">
+  <div class="headingblock">
+    <h2 id="RingingnameLengthMethod" style="margin-bottom:0px; margin-top:3px"></h2>
+    <h3 id="Association" style="margin-bottom:0px; margin-top:0px"></h3>
+    <h3 id="TowerDateTimeDuration" style="margin-top:0px; margin-bottom:0px"></h3>
+    <table  style="border-spacing:15px 2px;"><tr>
+      <td class="viewselectorS" id="SGicon"><div class="tooltip" onclick="onJSClickedEvent('SG')"><img src="iconstriking.png" alt="Striking" class="tv vsicons"><span class="tooltiptext">Striking Explorer</span></div></td>
+      <td class="viewselectorN" id="RJicon"><div class="tooltip" onclick="onJSClickedEvent('RJ')"><img src="iconcontest.png" alt="ReportToJudges" class="tv vsicons"><span class="tooltiptext">Report to Judges</span></div></td>
+      <td class="viewselectorN" id="REicon"><div class="tooltip" onclick="onJSClickedEvent('RE')"><img src="iconbarchart.png" alt="RingerErrors" class="tv vsicons"><span class="tooltiptext">Individual Bell Errors</span></div></td>
+      <td class="viewselectorN" id="ETicon"><div class="tooltip" onclick="onJSClickedEvent('ET')"><img src="icongraph.png" alt="ErrorsByTime" class="tv vsicons"><span class="tooltiptext">Errors Over Time</span></div></td>
+      <td class="viewselectorN" id="EHicon"><div class="tooltip" onclick="onJSClickedEvent('EH')"><img src="iconhistogram.png" alt="ErrorHistogram" class="tv vsicons"><span class="tooltiptext">Error Histogram</span></div></td>
+      <td class="viewselectorN" id="DOicon"><div class="tooltip" onclick="onJSClickedEvent('DO')"><img src="icondownloads.png" alt="Downloads" class="tv vsicons"><span class="tooltiptext">Files for Download</span></div></td>
+      <td class="viewselectorN" id="TEicon"><div class="tooltip" onclick="onJSClickedEvent('TE')"><img src="icontechnical.png" alt="Technical" class="tv vsicons"><span class="tooltiptext">Technical Information</span></div></td>
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td class="viewselectorN"><a href="../index.html"><div class="tooltip"><img src="icontouchindex.png" alt="Technical" class="tv vsicons"><span class="tooltiptext">Index of Touches</span></div></a></td>
+    </tr></table>
+  </div>
+  <!----------------------------- Judges Report tab ----------------------------->
+  <div class="detailblock" id="RJ" style="display:none;" >
+  <div class="detailblock2 sc0".
+    <span style="float: none; white-space: pre; line-height: 1.2; ">JUDGESREPORT</span>
+  </div>
+  </div>
+  <!----------------------------- Ringer errors tab ----------------------------->
+  <div class="detailblock" id="RE" style="display:none">
+  <div class="detailblock2">
+    <div style="float:left; padding-right:3%; width:30%">
+      <h4>Mean Error By Bell</h4>
+      <a href="MeanByBellBar.png">
+	    <img src="MeanByBellBar.png" alt="Mean Error By Bell" style="width:100%">
+	  </a>
+    </div>
+    <div style="float:left; padding-right:3%; width:30%">
+      <h4>Std Error By Bell</h4>
+      <a href="StdByBellBar.png">
+	    <img src="StdByBellBar.png" alt="Std Error By Bell" style="width:100%">
+	  </a>
+    </div>
+    <div style="float:left; padding-right:3%; width:30%">
+      <h4>RMS Error By Bell</h4>
+      <a href="RmsByBellBar.png">
+	    <img src="RmsByBellBar.png" alt="RMS Error By Bell" style="width:100%">
+	  </a>
+    </div>
+<h3>Overall Errors by the band</h3>
+<p>Shows how the band as a whole rang when ringing in a given position or following other bells. When ringing in a given position shows for example whether the band is weak at lead or whether they are habitually late at backstroke in last place.  For following other bells, shows how the band as a whole is affected by bells other than the one each is ringing. Might indicate "fear of the bells", or perhaps that the band is distracted by a ringers handling style.</p>
+<div style="float:left; padding-right:180px"; >
+<h4>Whole Band ringing in given position</h4>
+<div id=Meanbandinpos>?</div>
+</div>
+<div style="float:left; padding-right:40px">
+<h4>Whole Band ringing after other bell</h4>
+<div id=Meanbandafterbell>?</div>
+</div>
+<div style="clear:both; padding-bottom:50px"></div>
+<a name="BellErrors"></a>
+<h3>Bell Error Tables</h3>
+<p>Shows how each bell rang. There are eight tables covering all combinations of:</p><ul><li>Handstroke and backstroke<li>Mean (i.e. average error) and standard deviation (i.e. amount of randomness)<li>Bell-after-bell and Bell-in-position</ul><p>Perfect ringing would have zeros in all squares of the tables. Each square is the mean or standard deviation of multiple individual striking errors and where there are fewer than five occurrences the square is marked grey as the value may not be a statistically significant indicator of striking faults. Otherwise pink highlights negative values and orange positive values, and the darker the colour the worse the error. </p><p>If the touch contains rows with errors above the threshold the rows containing the errors are ignored for the purpose of these tables. This improves the likelihood that the dark coloured cells reflect striking faults even when there are method errors which would otherwise make the numbers meaningless. The row(s) of this touch that were ignored were: &nbsp .</p>
+<div style="float:left; padding-right:40px">
+<h4>Mean error (ms) Bell-after-bell at Handstroke</h4>
+<div id=Meanbellafterbellhs>?</div>
+</div>
+<div style="float:left; padding-right:40px">
+<h4>Mean error (ms) Bell-after-bell at Backstroke</h4>
+<div id=Meanbellafterbellbs>?</div>
+</div>
+<div style="clear:both; padding-bottom:10px"></div>
+<div style="float:left; padding-right:40px">
+<h4>Mean error (ms) Bell-in-position at Handstroke</h4>
+<div id=Meanbellinposhs>?</div>
+</div>
+<div style="float:left; padding-right:40px">
+<h4>Mean error (ms) Bell-in-position at Backstroke</h4>
+<div id=Meanbellinposbs>?</div>
+</div>
+<div style="clear:both; padding-bottom:50px"></div>
+<div style="float:left; padding-right:40px">
+<h4>Std error (ms) Bell-after-bell at Handstroke</h4>
+<div id=Stdbellafterbellhs>?</div>
+</div>
+<div style="float:left; padding-right:40px">
+<h4>Std error (ms) Bell-after-bell at Backstroke</h4>
+<div id=Stdbellafterbellbs>?</div>
+</div>
+<div style="clear:both; padding-bottom:10px"></div>
+<div style="float:left; padding-right:40px">
+<h4>Std error (ms) Bell-in-position at Handstroke</h4>
+<div id=Stdbellinposhs>?</div>
+</div>
+<div style="float:left; padding-right:40px">
+<h4>Std error (ms) Bell-in-position at Backstroke</h4>
+<div id=Stdbellinposbs>?</div>
+</div>  </div>
+  </div>
+  <div style="clear:both;padding-top:50px;padding-bottom:0px"></div>
+  <div style="float: none; padding-top:0px; white-space: pre; line-height: 1; background: #FFFFFF; "></div>
+  <!----------------------------- Errors by time tab ----------------------------->
+  <div class="detailblock" id="ET" style="display:none">
+  <div class="detailblock2">
+      <h2>Speed and Errors over the Touch</h2>
+	  <p>These graphs show the variation in speed and errors(*) over the touch. Ideally the speed should be constant, as speed changes are a source of errors since everyone in the band will not change speed in exactly the same way. However gradual changes are unlikely to be the cause of errors. Limited investigation suggests that peal speed changes of less than 1 second every 10 rows are fairly harmless and slowing down is less harmful than speeding up, which suggests that the classic conductor's shout of "Keep it going!" is probably right!<p>
+	  <p>The speed graph shows the average speed as an orange horizontal line.</p>
+	  <p>The errors graph shows the threshold above which HawkEar assumes the errors are due to method or ropesight errors as an orange horizontal line. The rows of the touch which above this threshold are: IGNOREDROWS. Statistics on the Report to Judges tab gives the standard deviation ignoring these rows.</p>
+      <p>----------<br>(*) measured as the standard deviation from the ideal according to the Kalman model of all blows in a wholepull</p>
+	  <a href="PealTimeByRow.png">
+	    <img src="PealTimeByRow.png" alt="Peal Time" style="width:90%">
+	  </a>
+	  <a href="StdByRow.png">
+	    <img src="StdByRow.png" alt="SD over time" style="width:90%">
+	  </a>
+  </div>
+  </div>
+  <!----------------------------- Errors Histogram tab ----------------------------->
+  <div class="detailblock" id="EH" style="display:none">
+  <div class="detailblock2">
+    <h2>Error Histogram</h2>
+      <p>This graph shows the number of errors(*) of different sizes. The peak or "median" value represents the "everything going right" capability of the band.</p>
+      <p>The shape of the histogram should be roughly that of a bell with its mouth down. However method or ropesight errors will cause the curve to be lop-sided and extended to the right. If this happens the reported Standard Deviation for the touch will also be higher than the median and the difference between the two shows the disruptive effect of such errors.</p>
+      <p>When working on improving the overall standard of striking in the band, recording the median standard deviation of each touch is a good way of monitoring overall progress.</p>
+      <p>----------<br>(*) measured as the standard deviation from the ideal according to the Kalman model of all blows in a wholepull</p>
+	  <a href="StdHisto.png">
+	     <img src="StdHisto.png" alt="SD histogram" style="width:50%">
+	  </a>
+  </div>
+  </div>
+  <!----------------------------- Downloads tab ----------------------------->
+  <div class="detailblock" id="DO" style="display:none">
+  <div class="detailblock2">
+    <h4>Downloadable resources</h4>
+	<a href="TOUCHID.ro.txt" download>Changerows</a><br>
+	<a href="TOUCHID.lo.txt" download>Lowndes file</a><br>
+	<a href="TOUCHID.bl.csv" download>csv file</a><br>
+	<a href="TOUCHID.su.txt" download>Report to Judges</a>
+  </div>
+  </div>
+  <!----------------------------- Technical tab ----------------------------->
+  <div class="detailblock" id="TE" style="display:none">
+  <div class="detailblock2">
+    <br><span class=sc0 style="float: none; white-space: pre; line-height: 1.2; ">Touch Id              = TOUCHID</span>
+    <br><span class=sc0 style="float: none; white-space: pre; line-height: 1.2; ">Source filename       = SOURCEFILENAME</span>
+	<br><span class=sc0 style="float: none; white-space: pre; line-height: 1.2; ">Recording level (dB)  = TOUCHDB</span>
+	<br><span class=sc0 style="float: none; white-space: pre; line-height: 1.2; ">Transcription options = TOPTIONS</span>
+	<br><span class=sc0 style="float: none; white-space: pre; line-height: 1.2; ">Analysis options      = AOPTIONS</span>
+	<br><span class=sc0 style="float: none; white-space: pre; line-height: 1.2; ">Code Versions         = VERSIONS</span>
+	<p>&nbsp;
+    <br><span class=sc0 style="float: none; white-space: pre; line-height: 1.2; ">QUALITY</span>
+
+  </div>
+  </div>
+  <!----------------------------- Striking Graph tab ----------------------------->
+  <div class="detailblock" id="SG" style="display:inline-flex; margin:0px; padding:0px;">
+    <button id="rntype" onclick="onRnTypeClickedEvent()"  style="height:26px; width:26px; margin-top:5px; margin-right:15px; margin-left:5px; padding:0px;">P</button>
+    <span style="font-size:14px; height:26px; margin-top:10px;">Bell:</span>
+    <select id="bnselector"  onChange="onBnSelectionEvent()"  style="height:26px; width:36px; margin-top:5px; margin-right:15px; padding:0px;">
+      <option text="0"> </option>
+    </select>
+    <span style="font-size:14px; height:26px; margin-top:10px;">Ideal-line:</span>
+    <select id="modelselector"  onChange="javascript:onModelSelectionEvent()"  style="height:26px;  margin-top:5px; margin-right:15px; padding:0px;">
+      <option text="0">Kalman</option>
+      <option text="0">Kalman-slow</option>
+      <option text="0">Rwp Model</option>
+      <option text="0">Metronomic</option>
+    </select>
+      <span style="font-size:14px; height:26px; margin-top:10px;">Go to:</span>
+    <input id="goto"  onChange="onGotoEvent()" size="6" style="height:23px;  margin-top:5px; margin-right:15px; padding:0px;">
+	  <span style="font-size:14px; height:26px; margin-top:10px;">Range:</span>
+      <select id="rangeselector"  onChange="javascript:onRangeSelectionEvent()" style="height:26px;  margin-top:5px; margin-right:15px; padding:0px;">
+      <option text="0">Touch</option>
+      <option text="1">Piece</option>
+      <option text="2">Range</option>
+    </select>
+	<span style="font-size:14px; height:26px; margin-top:10px;">Rows:</span>
+    <input id="range"  onChange="onRangeEvent()" size="6" style="height:23px;  margin-top:5px; margin-right:15px; padding-left:5px;">
+  <div id="audiocontrols" style="width:280px; height:26px; border-style:solid; border-width:1px; border-color:grey; background:pink; margin-top:5px; padding:0px; visibility:hidden; display:inline-flex; ">
+    <img src="iconback.png" id="ppback"       style="margin:2px; width:20px; height:20px;" class="tv">
+    <img src="iconplay.png" id="pp"           style="margin:2px; width:20px; height:20px;" class="tv">
+    <img src="iconforward.png" id="ppforward" style="margin:2px; width:20px; height:20px;" class="tv">
+	<span id="ppposition" style="margin:4px;">00:00&nbsp;/&nbsp;00:00</span>
+    <img src="iconspeaker.png" id="ppspeaker" style="margin:2px; width:20px; height:20px;" class="tv">
+    <input id="ppvolume" type="range" min="0" max="1" step="0.01" value="0" style="margin:5px; width:100px;">
+  </div>
+    <audio  id="myAudio" ></audio>
+	<div  id="strikinggraph" class="strikinggraph">
+    <svg  id="mysvg" onclick="javascript:onRowClickedEvent(evt);">
+    </svg>
+	</div>
+    <div class="rhs" style="display:inline">
+      <h3 style="margin-left:10px; margin-top:3px; margin-bottom:0px; " ><span>Current Model:&nbsp;</span><span id="rhsmodel">MMMMMM</span>
+        <div class="helptip">
+	      <img src="explain.png" alt="[explain]" class="tv helpiconclass">
+          <span id=helpidZZZZZZ class="helptiptext">Explains how this Model operates</span>
+        </div>
+	    &nbsp;
+        <div class="helptip">
+	      <img src="learn.png" alt="[learn]" class="tv helpiconclass">
+          <span id=helpidZZZZZZ class="helptiptext">Explains why we have models</span>
+        </div>
+      </h3>
+      <table id="all" class="rhsXXX" >
+        <tr>
+		  <th>All bells</th>
+		  <th align=left>Both</th>
+		  <th align=left>Hand</th>
+		  <th align=left>Back</th>
+		</tr>
+      </table>
+      <table id="bel" class="rhsXXX" >
+        <tr><th>Bell: <span id="bellno">(none)</span></th>
+		  <th align=left>Both</th>
+		  <th align=left>Hand</th>
+		  <th align=left>Back</th>
+		</tr>
+      </table>
+      <table id="row" class="rhsXXX" >
+        <tr><th>Selected row <span id="currrow"></span></th><th>.................</th></tr>
+      </table>
+    </div>
+  </div>
+<script>
+  // 1. Load TouchViewer script files
+  var first = document.getElementsByTagName('script')[0];
+  
+  newScript = document.createElement('script');
+  newScript.src = tvLoc+'graph.js';
+  first.parentNode.insertBefore(newScript, first);
+
+  var newScript = document.createElement('script');
+  newScript.src = tvLoc+'inittables.js';
+  first.parentNode.insertBefore(newScript, first);
+
+  newScript = document.createElement('script');
+  newScript.src = tvLoc+'filltables.js';
+  first.parentNode.insertBefore(newScript, first);
+  
+  // 2. Edit DOM so that icon src files are correctly identified
+  vsi = document.getElementsByClassName('tv');
+  for (i=0 ; i<vsi.length ; i++){
+    ss = vsi[i].src.split("/");
+    vsi[i].src=tvLoc+ss[ss.length-1];
+  }
+
+  // 3. Edit DOM so that favicon file is correctly identified
+  fa=document.getElementById("myfavicon");
+  ss =  fa.href.split("/");
+  fa.href=tvLoc+ss[ss.length-1];
+
+  // Check all loaded OK
+  isFailed = 0;
+  if (typeof tiActByRb === 'undefined') { // Ensure that strike data was loaded successfully
+    mybody.innerHTML = 'HAWKEAR JAVASCRIPT ERROR: Strike data not loaded';
+    mybody.style.display = "block";               // Display the main page
+	isFailed=1;
+  } else if (tvLoc == '') {// Ensure that TouchViewer was loaded successfully
+    mybody.innerHTML = 'TouchViewer Not Found';
+    mybody.style.display = "block";               // Display the main page
+	isFailed=1;
+  } else{
+    mybody.style.display = "block";               // Display the main page
+
+    // Page heading
+    document.title=sRingingname;
+    document.getElementById("RingingnameLengthMethod").innerHTML=sRingingname+" ("+nRowsInTouch+" "+sMethod+")";
+    document.getElementById("Association").innerHTML=sAssociation;
+    document.getElementById("TowerDateTimeDuration").innerHTML="At " + sTower + ", On " + sNiceRingingdatetime + " in " + sTouchDuration;
+    var ns = "http://www.w3.org/2000/svg";
+    var nBlows = tiActByRb.length;
+    var nRows  = nBlows/nBells;
+    var tiActByRp = tiActByRb.slice(0,nBlows);  // copy array
+    tiActByRp.sort(function(a, b){return a-b}); //////Note this is not right as does not preserve rows
+   
+    // Initial View State
+    var viewCurrent='SG';                 // Initial page is striking graph
+    var bnCurrent             = -1;
+    var bnNew                 = -1;       // Start with no bell being selected
+    var modelRectShadeCurrent = -1;
+    var modelRectShadeNew     =  0;       // Start using model 0
+    var modelRectPosCurrent   = -1;
+    var modelRectPosNew       =  1;       // Start using model 0
+    var modelLineCurrent      = -1;
+    var modelLineNew          =  0;       // Start using model 0
+    var rnrangeStrCurrent     = "";
+    var rnrangeStrNew         = "Touch";  // Start with range being the touch
+    var rnRange;                          // numeric cache of the range
+    var rnCurrent             = -1;       // No row selected
+    var rnTypeCurrent = "U";              // uninitialised
+    var rnTypeNew     = "P";              // Number rows in piece
+    var pnTypeCurrent = "U";              // uninitialised
+    var pnTypeNew = "I";                  // Initialised
+   
+    // Striking Graph geometry
+    var el = document.getElementsByTagName('svg')[0]; // handle to the svg
+    var sFontSize = window.getComputedStyle(el, null).getPropertyValue('font-size');
+    var pxFontSize = parseFloat(sFontSize);
+    var pxPerRow         = pxFontSize * 1.9;  // vertical spacing
+    var pxGraphPadTop    = pxFontSize * 2;    // white space above first row
+    var pxGraphPadBottom = pxFontSize * 1;    // white space below last row
+    var pxPerIBG         = pxFontSize * (15/nBells+1);  // IBG to x increment (bigger for smaller number of bells)
+    var pxRnOffset       = pxFontSize * 1;                              // Row number
+    var pxRnWidth        = pxFontSize * 4;
+    var pxPnOffset       = pxFontSize * 3.3;                            // Placenotation
+    var pxPnWidth        = pxFontSize * 1.5;
+    var pxGraphOffset    = pxPnOffset + pxPnWidth + pxFontSize;       // Graph
+    var pxGraphWidth     = (nBells+1)*pxPerIBG;
+    var pxGraphCentreX   = pxGraphOffset + pxGraphWidth/2;
+    var pxAnnoOffset     = pxGraphOffset + pxGraphWidth + pxFontSize; // Annotations row details
+    var pxAnnoWidth      = pxFontSize * 12;
+    var pxSvgWidth       = pxAnnoOffset + pxAnnoWidth + pxFontSize ;
+    var pxSvgHeight      = pxGraphPadTop + pxPerRow*(nRows-1) + pxGraphPadBottom;
+    var pxLineOffsetX    = pxFontSize * .3;   // Position bluelines over bell numbers
+    var pxLineOffsetY    = pxFontSize * .3;   // Position bluelines over bell numbers
+    var pxRectOffsetY    = pxFontSize * .55;   // Position shade over bell numbers
+    var pxPerMs          = pxPerIBG/((tiActByRb[nBlows-1]- tiActByRb[0])/(nBlows-1+nRows/2));
+    
+    mysvg.setAttributeNS(null,"height",pxSvgHeight.toString()+"px");
+    mysvg.setAttributeNS(null,"width",pxSvgWidth.toString()+"px");
+    mysvg.style.cursor = "default";
+    var iFirstblowms = parseInt(sFirstblowms);
+  }
+   
+</script>
+</body>
+</html>
